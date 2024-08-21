@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-clicked {
+  background-color: #f8f9fa;
+  color: #343a40;
+  border: 2px solid #343a40;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+body
+{
+    background-color: #e0ba3d;
+    font-family: "Itim", cursive;
+    font-size: 20px;
+}
+
+/* simple reset css =  yg dibawah ini wajib */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Itim", "cursive";
+}
+
+.navbar {
+    color: inherit; /* Mengatur warna link agar mengikuti warna teks induk */
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+  }
+ 
+
+.blue-bg {
+    background-color: #263238;
+}
+
+.logo {
+    max-width: 10%; /* Mengatur lebar maksimum gambar menjadi 20% dari wadah*/
+    height: auto; /*Menjaga rasio aspek gambar*/
+}
+
+.logo-bawah {
+    max-width: 30%; /* Mengatur lebar maksimum gambar menjadi 20% dari wadah*/
+    height: auto; /*Menjaga rasio aspek gambar*/ 
+}
+
+.tittle {
+    background-color: #E2462B;
+    height: 100vh;
+}
+
+.fw-bold {
+    font-size: 70px;
+}
+
+.btn {
+    background-color: #263238;
+}
+
+.shop {
+    position: absolute;
+    bottom: 35%;
+}
+
+.dog {
+    position: absolute;
+    left: 20%;
+    top: 58%;
+    height: 280px;
+    width: 300px;
+}
+
+.logo-center {
+  height: 60%;
+}
+
+.our-service{
+    height: 70vh;
+}
+
+.service {
+    font-size: 80px;
+}
+
+
+.testi-bg{
+    background-color: #FBF4DF;
+    height: 50vw;
+}
+
+.yellow-bg {
+    background-color: #F8D046;
+    height: 30vw; 
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel-item img {
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.clients {
+    font-size: 60px;
+}
+
+.d-block {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: inherit; /* Mengatur warna link agar mengikuti warna teks induk */
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+  }
+  a:hover {
+    color: inherit; /* Opsional: Mengatur warna link saat di-hover agar tetap sama */
+    text-decoration: none; /* Opsional: Menghilangkan garis bawah saat di-hover */
+  }
+
+@media only screen and (max-width: 600px) {
+    .columns {
+       width: 100%;
+     }
+   }
+
+.menu-bawah {
+    font-size: 25px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .columns {
+    background-color: #ffffff;
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
+  
+  .price {
+    list-style-type: none;
+    border: 1px solid #ffffff;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  .price.header {
+    background-color: #111;
+    color: rgb(19, 19, 19);
+    font-size: 25px;
+  }
+  
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .price.grey {
+    background-color: #131111;
+    font-size: 20px;
+  }
+  
+  .button {
+    background-color: #cab65b;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+   .columns {
+      width: 100%;
+    }
+  }
+  .button {
+    padding: 5px 30px;
+  }
+
+  
+.login-container{
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+}
+p-3 {
+    padding: 1rem !important;
+}
+.row-product{
+    background-color: #FBF4DF;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 160px; 
+}
+.garis-produk{
+    border-bottom: 2px solid #263238;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.button {
+    padding: 5px 30px;
+  }
+  #about .aboutus {
+    width: 50%;
+  }
+  
+  #about .aboutus h1 {
+    text-align: right;
+  }
+  
+  #about .aboutus p {
+    text-align: justify;
+  }
+  
+  #about .aboutus ul {
+    text-align: justify;
+    list-style-position: inside;
+  }
+  .gambarkucing img {
+    width: 15%; /* adjust the width to your desired size */
+    height: auto; /* maintain the aspect ratio */
+    margin: 35px; /* add some margin around the image */
+    float: left; /* move the image to the left */
+  }
